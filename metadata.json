@@ -1,0 +1,7 @@
+{
+  "name": "Primrose Speciality Coffee",
+  "description": "Exclusive Ethiopian specialty coffee micro-lot catalog featuring washed and natural lots from Yirgacheffe, Gedeb, Sidama, and Guji.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

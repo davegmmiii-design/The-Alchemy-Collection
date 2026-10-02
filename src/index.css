@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-green: #112720;
+    --dark-forest-green: #0E231C;
+    --dark-forest-surface: #142F26;
+    --accent-gold: #E2A748;
+    --accent-gold-light: #F5CD78;
+    --bg-cream: #F4F2EB;
+    --card-bg: #FFFFFF;
+    --text-muted: #7A8B87;
+    --text-dark: #1F2927;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Bodoni Moda', 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.text-gold-luxury {
+  color: #E2A748;
+  background: linear-gradient(135deg, #ECC477 0%, #D49335 50%, #F5CE7C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-solid {
+  color: #E2A748;
+}
+
+/* Custom scrollbar for subtle luxury aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4C0B3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #112720;
+}
+

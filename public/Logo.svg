@@ -1,0 +1,60 @@
+<svg viewBox="0 0 540 280" width="540" height="280" xmlns="http://www.w3.org/2000/svg" aria-label="Primrose Speciality Coffee Ethiopia Official Logo">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D07E" />
+      <stop offset="35%" stop-color="#DF9F38" />
+      <stop offset="70%" stop-color="#F8DA8E" />
+      <stop offset="100%" stop-color="#C98622" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Plaque in Forest Green -->
+  <rect x="8" y="8" width="524" height="264" rx="26" fill="#0D382B" stroke="url(#goldGradient)" stroke-width="6" filter="url(#subtleGlow)" />
+
+  <!-- Inner Gold Inset Border -->
+  <rect x="18" y="18" width="504" height="244" rx="18" fill="none" stroke="url(#goldGradient)" stroke-width="1.75" opacity="0.85" />
+
+  <!-- ETHIOPIA Top Right -->
+  <g transform="translate(265, 38)">
+    <text x="75" y="42" fill="url(#goldGradient)" font-size="36" font-weight="bold" letter-spacing="4.5" font-family="'Cinzel', 'Playfair Display', 'Bodoni Moda', serif">ETHIOPIA</text>
+    <circle cx="198" cy="40" r="5" fill="none" stroke="url(#goldGradient)" stroke-width="1.2" />
+    <text x="198" y="43" text-anchor="middle" fill="url(#goldGradient)" font-size="7" font-weight="bold" font-family="sans-serif">R</text>
+  </g>
+
+  <!-- 3 Botanical Leaves over 'i' -->
+  <g transform="translate(202, 75)">
+    <path d="M10 24 C-2 20 -8 8 2 0 C12 6 16 16 10 24 Z" fill="url(#goldGradient)" />
+    <path d="M10 24 Q5 12 2 0" stroke="#0D382B" stroke-width="1" fill="none" />
+    <path d="M14 26 C12 12 20 -4 30 2 C28 14 24 24 14 26 Z" fill="url(#goldGradient)" />
+    <path d="M14 26 Q20 12 30 2" stroke="#0D382B" stroke-width="1" fill="none" />
+    <path d="M18 27 C28 20 40 18 42 28 C34 34 24 33 18 27 Z" fill="url(#goldGradient)" />
+    <path d="M18 27 Q30 24 42 28" stroke="#0D382B" stroke-width="1" fill="none" />
+  </g>
+
+  <!-- Main 'Primrose' brand lettering with coffee bean 'o' -->
+  <g transform="translate(48, 144)">
+    <text x="0" y="0" fill="url(#goldGradient)" font-size="92" font-weight="900" font-style="italic" font-family="'Bodoni Moda', 'Playfair Display', Georgia, serif">P</text>
+    <text x="58" y="0" fill="url(#goldGradient)" font-size="78" font-weight="bold" font-style="italic" letter-spacing="-1" font-family="'Bodoni Moda', 'Playfair Display', serif">rimr</text>
+    
+    <!-- Coffee Bean 'o' -->
+    <g transform="translate(262, -48) rotate(16)">
+      <ellipse cx="24" cy="27" rx="19" ry="26" fill="url(#goldGradient)" />
+      <path d="M24 3 C20 12 28 22 23 35 C19 44 26 49 24 51" fill="none" stroke="#0D382B" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+
+    <text x="318" y="0" fill="url(#goldGradient)" font-size="78" font-weight="bold" font-style="italic" letter-spacing="-1" font-family="'Bodoni Moda', 'Playfair Display', serif">se</text>
+  </g>
+
+  <!-- SPECIALITY COFFEE -->
+  <text x="270" y="188" text-anchor="middle" fill="url(#goldGradient)" font-size="21" font-weight="800" letter-spacing="8.5" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">SPECIALITY COFFEE</text>
+
+  <!-- — Since 2010 — -->
+  <g transform="translate(270, 222)">
+    <line x1="-155" y1="-5" x2="-62" y2="-5" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" />
+    <text x="0" y="0" text-anchor="middle" fill="url(#goldGradient)" font-size="17" font-style="italic" font-weight="500" letter-spacing="1.5" font-family="'Playfair Display', 'Bodoni Moda', Georgia, serif">Since 2010</text>
+    <line x1="62" y1="-5" x2="155" y2="-5" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+</svg>
